@@ -32,8 +32,8 @@ namespace Day11Problems
             // Print array first
             Console.Write("Elements of array: ");
             foreach (int num in array)
-            {                
-                Console.Write(num + " ");               
+            {
+                Console.Write(num + " ");
             }
             Console.WriteLine("\nTotal number of duplicate elements: " + duplicateCount);
         }

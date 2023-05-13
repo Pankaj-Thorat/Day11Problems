@@ -12,14 +12,19 @@ namespace Day11Problems
         {
             //getting input from user to execute specific code
             Console.WriteLine("Please choose your program");
-            Console.WriteLine("1.Duplicate Elements \n2.Unique Number \n3.Exit");
+            Console.WriteLine("1.Duplicate Elements \n2.Unique Number \n3.Frequency Of Elements ");
             int option = int.Parse(Console.ReadLine());
 
             switch (option)
             {
-                case 1:DuplicateElements.GetDuplicateElements();
+                case 1:
+                    DuplicateElements.GetDuplicateElements();
                     break;
-                case 2:UniqueNumbers.GetUniqueNumbers(); 
+                case 2:
+                    UniqueNumbers.GetUniqueNumbers();
+                    break; 
+                case 3:
+                    FrequencyOfElements.GetFrequencyOfElements();
                     break;
                 default:
                     Console.WriteLine("Please try again and choose from given options only.");
