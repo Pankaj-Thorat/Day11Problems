@@ -29,6 +29,7 @@ namespace Day11Problems
                 if (count > 1)
                     duplicateCount++;
             }
+            // Print array first
             Console.Write("Elements of array: ");
             foreach (int num in array)
             {                
