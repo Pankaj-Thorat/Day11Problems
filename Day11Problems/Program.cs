@@ -12,7 +12,7 @@ namespace Day11Problems
         {
             //getting input from user to execute specific code
             Console.WriteLine("Please choose your program");
-            Console.WriteLine("1.Duplicate Elements \n2.Unique Number \n3.Frequency Of Elements ");
+            Console.WriteLine("1.Duplicate Elements \n2.Unique Number \n3.Frequency Of Elements \n4.Get Max and Min Number ");
             int option = int.Parse(Console.ReadLine());
 
             switch (option)
@@ -25,6 +25,9 @@ namespace Day11Problems
                     break; 
                 case 3:
                     FrequencyOfElements.GetFrequencyOfElements();
+                    break;
+                case 4:
+                    MaxAndMinNumber.GetMaxMinNumber();
                     break;
                 default:
                     Console.WriteLine("Please try again and choose from given options only.");
